@@ -1,0 +1,14 @@
+[Core]
+Version=ver.0.9.2beta
+Game_Speed=15
+[Mechanics]
+Snake_Length=15
+Snakes_Amount=1500
+Win_Score=200000
+Food_Dispersion=75000
+[Graphics]
+Frames_Per_Second=30
+Cell_Size=10
+Width=640
+Height=480
+Top_Panel=30
