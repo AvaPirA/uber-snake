@@ -58,12 +58,21 @@ public class SettingsReciever {
 	private static final String dfltSettings = "[Core]\nVersion=ver. 0.9.2 beta\ngame_speed=15\n[Mechanics]\nSnake_Length=15\nSnakes_Amount=22\nWin_Score=200\nFoodDispersion=75000\n[Graphics]\nCell_Size=10\nWidth=640\nHeight=480\nTop_Panel=30\n";
 	@SuppressWarnings("unused")
 	@Deprecated
+<<<<<<< HEAD
+	private static final String dfltSettingsFilePath = "settings.ini";
+
+	/**
+	 * Path to config file
+	 */
+	private static final String settingsPath = "setttings.ini";
+=======
 	private static final String dfltSettingsFilePath = "set.gs";
 
 	/**
 	 * Path to config file
 	 */
 	private static final String settingsPath = "set.gs";
+>>>>>>> branch 'master' of https://github.com/AlpenDitrix/uber-snake.git
 	/**
 	 * Splits string with specified delimiters on few tokens
 	 */
